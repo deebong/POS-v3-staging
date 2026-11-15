@@ -1,0 +1,26 @@
+/* Supplier & Purchase page — same content canvas as the other Store pages. */
+.proc-wrap {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.proc-head,
+.proc-stats,
+.proc-card {
+  width: 100%;
+}
+.proc-table {
+  width: 100%;
+  overflow-x: auto;
+}
+.proc-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+@media (max-width: 900px) {
+  .proc-head { align-items: flex-start; }
+  .proc-head .btn-row { width: 100%; }
+}
+
+.proc-sync-status{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;margin-top:12px;border:1px solid var(--border);border-radius:10px;background:var(--surface-2);font-size:13px}.proc-sync-status small{display:block;color:var(--muted);overflow-wrap:anywhere}.proc-purchase-link{color:var(--primary);font-weight:700;text-align:left;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}.proc-status.pending{background:var(--surface-2);color:var(--muted)}.proc-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:18px}.proc-detail-totals{margin:16px 0 0 auto;max-width:300px;display:grid;gap:8px}.proc-detail-totals>div{display:flex;justify-content:space-between;gap:12px}.proc-detail-totals>div:last-child{border-top:1px solid var(--border);padding-top:8px}@media(max-width:640px){.proc-detail-grid{grid-template-columns:1fr}.proc-sync-status{align-items:flex-start;flex-wrap:wrap}}

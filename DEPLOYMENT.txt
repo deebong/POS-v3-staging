@@ -1,0 +1,8 @@
+POS v3 staging build
+Version: 3.0.0
+Source repository: deebong/POS-platform-v3
+Source branch: stage1/implementation-v3
+Source commit: 3aa37f52f6ba3a96adf02a56484d44346bb0dcb9
+CI run number: 17
+Target repository: deebong/POS-v3-staging
+Channel: staging; not production
